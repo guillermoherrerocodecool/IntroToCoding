@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,800;1,300&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  margin: 0 0 40px 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+header h1 {
+  margin-bottom: 0;
+  font-size: 3em;
+  text-shadow: 3px 3px 3px #909090;
+}
+
+header h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 20px 0 0;
+}
+
+nav a {
+  padding: 0.5em 1em;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: purple;
+  border: solid 1px purple;
+}
+
+nav a:hover {
+  color: white;
+  background-color: purple;
+}
+
+section .intro {
+  display: flex;
+  justify-content: center;
+  background-image: url("course-background.png");
+}
+
+section .intro aside {
+  display: block;
+  margin: 2em;
+  padding: 2em;
+  width: 360px;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 6px 6px 6px black;
+}
+
+section .intro h4 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+section .intro .price {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+section .intro aside .tags ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+  text-align: left;
+  list-style-type: none;
+}
+
+section .intro aside .tags ul li {
+  margin: 0 10px 0 0;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: white;
+}
+
+section .intro aside .tags ul li:nth-child(1) {
+  background-color: tomato;
+}
+
+section .intro aside .tags ul li:nth-child(2) {
+  background-color: purple;
+}
+
+section .intro aside ul {
+  margin: 20px 0 0 0;
+  padding: 0;
+  text-align: left;
+  list-style-type: none;
+}
+
+section .intro aside ul li {
+  margin: 0 0 4px 0;
+}
+
+section .intro article {
+  display: block;
+  margin: 0;
+  padding: 1em;
+  width: 400px;
+  color: purple;
+}
+
+section article h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+section article p {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+#full-stack-course h3 {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.modules {
+  display: block;
+  justify-content: center;
+}
+
+.modules .module {
+  display: block;
+  margin: 0 20px 0 0;
+  padding: 0;
+  width: 400px;
+  box-shadow: 3px 3px 3px #191919;
+}
+
+.modules .module .black {
+  display: block;
+  margin: 0;
+  padding: 0.5em 0;
+  font-size: 1.3em;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.modules .module .green {
+  display: block;
+  margin: 0;
+  padding: 0.5em 0.5em;
+  text-align: center;
+  color: black;
+  background-color: lightseagreen;
+  height: 300px;
+}
+
+.modules .module .green h5 {
+  margin: 0.6em 0;
+  padding: 0;
+  font-size: 1.5em;
+}
+
+.modules .module .green p {
+  margin: 0;
+  padding: 10px;
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+#ceos-joy {
+  color: white;
+  background-color: black;
+}
+
+#ceos-joy h3 {
+  padding: 80px 0;
+  margin-bottom: 0;
+  font-size: 4em;
+  text-align: center;
+  font-style: italic;
+}
+
+#ceos-joy h4 {
+  margin: 0;
+  padding: 1.3em 0 3em 0;
+  font-size: 1.4em;
+  text-align: center;
+  font-style: italic;
+}
+
+#ceos-joy .headline {
+  display: flex;
+  justify-content: center;
+}
+
+#ceos-joy .headline p {
+  width: 700px;
+  font-size: 1.3em;
+}
+
+#ceos-joy .headline img {
+  margin: 0 0 100px 100px;
+  width: 500px;
+}
+
+footer {
+  background-color: white;
+}
+footer .separator {
+  width: 96%;
+  height: 0px;
+  margin: 20px auto 0 auto;
+  border: 1px solid black;
+}
+
+footer .elements {
+  display: flex;
+  justify-content: left;
+  padding: 20px;
+}
+
+footer .element {
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+footer .element img {
+  height: 30px;
+}
+
+footer .element p {
+  margin: 0 0 0 20px;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: black;
+}
